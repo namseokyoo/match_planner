@@ -72,7 +72,7 @@ flutter run
 
 1. 소스 코드 변경 후 웹 빌드 생성:
    ```
-   flutter build web
+   flutter build web --base-href /match_planner/
    ```
 
 2. gh-pages 브랜치로 전환:
@@ -109,7 +109,7 @@ flutter run
 
 ### 웹 빌드 및 배포
 ```
-flutter build web
+flutter build web --base-href /match_planner/
 ```
 
 웹 앱은 GitHub Pages를 통해 호스팅되며, 다음 URL에서 접근할 수 있습니다:
